@@ -1,0 +1,119 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.top-half-page {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/113/391/original/Lost-main-img.jpeg?1706876492");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
+}
+.bottom-half-page {
+  background-color: gray;
+}
+ul {
+  list-style: none;
+}
+header,
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.left-nav,
+.right-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+.left-nav ul,
+.right-nav ul {
+  display: flex;
+  padding: 20px;
+}
+.left-nav li,
+.right-nav li {
+  padding: 20px;
+}
+.left-nav li a,
+.right-nav li a {
+  text-decoration: none;
+  color: white;
+}
+.left-nav li a:hover,
+.right-nav li a:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.search-bar {
+  width: 200px; /* Adjust the width as needed */
+  display: flex;
+  align-items: center; /* Center the content vertically within .search-bar */
+}
+
+.search-bar input {
+  width: 150px; /* Adjust the width as needed */
+  height: 30px;
+  padding: 8px; /* Adjust the padding as needed */
+  border-radius: 10px;
+  opacity: 0.4;
+  border-width: 1px;
+  background-color: gray;
+  color: white;
+}
+
+svg.bi.bi-search {
+  max-width: 100%;
+  height: auto;
+  /* Optional */
+  display: block;
+  margin-right: 28px;
+}
+svg.bi.bi-play-circle-fill {
+  display: block;
+  margin: 0 auto;
+  width: 400px; /* Adjust the width as needed */
+  height: 400px;
+  color: white;
+  position: absolute;
+  top: 50%; /* 50% from the top */
+  left: 50%; /* 50% from the left */
+  transform: translate(-50%, -50%); /* Center the element */
+  opacity: 0.4;
+}
+svg.bi.bi-play-circle-fill:hover {
+  color: gray;
+  cursor: pointer;
+}
+.carousel {
+  display: block;
+  margin: 0 auto;
+  /* width: 640px;
+  height: 260px; */
+  padding: 60px 60px;
+}
+.item-color {
+  color: black;
+}
+.carousel-indicators button {
+  background-color: gray !important;
+  border-color: black !important;
+  border-width: 1px !important;
+}
+.footer-info {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  background-color: gray;
+  padding: 10px;
+}
+.footer-info a {
+  color: black; /* Set the color for the anchor tag */
+}
+.footer-info a:hover {
+  color: whitesmoke;
+}
